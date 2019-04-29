@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>移动端</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/iconfont.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script>
+		window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';}
+	</script>
+</head>
+<body>
+	<!--页头-->
+	<div class="header">
+		
+		<div class="header_top gWidth clearfix">
+			<ul>
+				<li class="iconfont icon-fanhui"></li>
+				<li class="lip">Woman,Dresses</li>
+				<li class="iconfont icon-gouwuchekong"></li>
+			</ul>
+		</div>
+		<div class="header_btt gWidth clearfix">
+			<ul>
+				<li class="limr">ADD TO WISHLIST</li>
+				<li>ADD TO WISHLIST</li>
+			</ul>
+		</div>
+	</div>
+
+	<!--中间内容-->
+	<div class="center gWidth">
+		<div class="banner">
+			<div class="bnn_top clearfix">
+				<ul>
+					<li><img src="img/banner.png" alt=""></li>
+					<li><img src="img/banner.png" alt=""></li>
+					<li><img src="img/banner.png" alt=""></li>
+				</ul>
+			</div>
+			<div class="bnn_btt clearfix">
+				<ul>
+					<li>
+						<p>Elegant Pink Dresses</p><span>$605,00</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="nav clearfix">
+
+			<span class="iconfont icon-iconfonticon02"></span><p>Description</p>
+		</div>
+		<div class="color">
+			<div class="color_a">
+				<h3 class="iconfont icon-fenzu">Colour:</h3>
+				<p>Coose a colour for item</p>
+				<ul class="clearfix">
+					<li class="li1"></li>
+					<li class="li2"></li>
+					<li class="li3"></li>
+				</ul>
+			</div>
+			<div class="color_b">
+				<h3 class="iconfont icon-yijia">Size:</h3>
+				<p>Size avaikable for this item</p>
+				<ul class="clearfix">
+					<li>6</li>
+					<li>8</li>
+					<li>10</li>
+					<li>12</li>
+					<li>14</li>
+				</ul>
+			</div>
+		</div>	
+
+		<div class="center_btt">
+			<p>Add to Cart</p>
+		</div>
+	</div>
+	
+	<!--页尾-->
+	<div class="footer gWidth clearfix">
+		<div class="clearfix"><h2>SHARE ON</h2><span></span></div>
+		<ul>
+			<li class="clearfix">
+				<div><img src="img/tb1.png" alt=""></div>
+				<p>205</p>
+			</li>
+			<li class="clearfix">
+				<div><img src="img/tb2.png" alt=""></div>
+				<p>225</p>
+			</li>
+			<li class="clearfix">
+				<div><img src="img/tb3.png" alt=""></div>
+				<p>358</p>
+			</li>
+		</ul>
+
+	</div>
+
+</body>
+</html>
